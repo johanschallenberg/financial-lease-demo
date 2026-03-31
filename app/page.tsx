@@ -4,8 +4,10 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-slate-900">
       <section className="mx-auto max-w-6xl px-6 py-16 md:py-24">
-        <div className="grid gap-12 md:grid-cols-2 md:items-center">
-          <div>
+        <div className="grid gap-12 md:grid-cols-2">
+          <div className="md:sticky md:top-20 self-start">
+            <div className="mb-6 flex items-center gap-3">
+            <div className="h-10 w-10            
             <div className="mb-4 inline-flex rounded-full border border-slate-200 px-3 py-1 text-sm text-slate-600">
               Financial lease voor zzp en mkb
             </div>
